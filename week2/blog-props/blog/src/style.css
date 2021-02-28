@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.HeadCont {
+    padding: 50px;
+    background-color: #6c757dbd;
+}
+h5 {
+    color: #fff;;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    display: block;
+    margin: 0px 0 0;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 0%;
+}
+a {
+    color: #fff;;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-right: 2.5em ;
+    letter-spacing: 1px;
+    margin-top: 2em;
+    text-decoration: none;
+}
+.nav {
+    background-color: #6c757dbd;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20em;
+
+}
+.navLink {
+    margin-right: 0%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.navLogo {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    margin-left: 20em;
+    margin-top: 1em;
+}
+.navbar-light {
+    display: flex;
+    flex-direction: right;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.propBox {
+    width: 600px;
+}
+.propTitle {
+    color: #212529;
+    font-weight: 800;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 25px;
+}
+.propsubTitle {
+    color: #212529;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 0;
+}
+.authorName {
+    text-decoration: none;
+    font-weight: 550;
+    font-style: normal;
+    color: #212529;
+}
+.authors{
+    font-size: 18px;
+    font-style: italic;
+}
+.FootCont {
+    color: #6c757d;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 50px;
+}

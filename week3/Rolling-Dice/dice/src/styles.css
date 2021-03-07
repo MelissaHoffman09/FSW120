@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1570303345338-e1f0eddf4946?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=965&q=80);
+    background-position: center;
+    background-size: cover;
+    font-family: fantasy;
+
+}
+
+.heading {
+    color: black;
+    font-size: 50px;
+}
+
+
+.dice {
+    border: 6px double black;
+    margin-right: 46%;
+    margin-left: 46%;
+    padding: 25px;
+    background-color: white;
+    
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: 6px double black;
+    font-family: fantasy;
+}

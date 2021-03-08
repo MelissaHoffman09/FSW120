@@ -11,7 +11,7 @@ h1 {
     color: greenyellow;
 }
 
-.dj-box {
+.djBox {
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;

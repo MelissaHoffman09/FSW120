@@ -90,10 +90,10 @@ class DjReact extends React.Component {
             <div>
             <div>
                 <h1>DJ REACT</h1>
-                <div style={{background: this.state.squares[0]}} className="dj-box"></div>
-                <div style={{background: this.state.squares[1]}} className="dj-box"></div>
-                <div style={{background: this.state.squares[2]}} className="dj-box"></div>
-                <div style={{background: this.state.squares[3]}} className="dj-box"></div>
+                <div style={{background: this.state.squares[0]}} className="djBox"></div>
+                <div style={{background: this.state.squares[1]}} className="djBox"></div>
+                <div style={{background: this.state.squares[2]}} className="djBox"></div>
+                <div style={{background: this.state.squares[3]}} className="djBox"></div>
             </div>
             <div>
                 <button onClick={this.djSmallTime}>DJ SMALL</button>

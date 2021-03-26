@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("https://images.pexels.com/photos/6256066/pexels-photo-6256066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.answerBox {
+    padding-left: 25px;
+    font-size: 34px;
+}
+
+.calculatorbox {
+    border: 5px double black;
+    background-color: #31343a;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    'num7 num8 num9 plus'
+    'num4 num5 num6 minus'
+    'num1 num2 num3 divide'
+    'dot num0 equals multiply'
+    'clear clear clear clear';
+    gap: 7px;
+    padding: 16px;
+}
+
+button {
+    padding: 15px;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.num0 {
+    grid-area: num0;
+}
+
+.num1 {
+    grid-area: num1;
+}
+
+.num2 {
+    grid-area: num2;
+}
+
+.num3 {
+    grid-area: num3;
+}
+
+.num4 {
+    grid-area: num4;
+}
+
+.num5 {
+    grid-area: num5;
+}
+
+.num6 {
+    grid-area: num6;
+}
+
+.num7 {
+    grid-area: num7;
+}
+
+.num8 {
+    grid-area: num8;
+}
+
+.num9 {
+    grid-area: num9;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.dot {
+    grid-area: dot;
+}
+
+.equals {
+    grid-area: equals;
+}

@@ -2,56 +2,54 @@ import React, {useState} from 'react';
 import '../styles.css';
 
 const Calculator = (props) => {
-
-    const [ answerBox, setAnswerBox ] = useState("0");
-    const [ mathExpression, setMathExpression ] = useState("");
-
-    const calculateExpression = (mathExpression) => {
+    const [ sumBox, setSumBox ] = useState("0");
+    const [ mathStatement, setMathStatement ] = useState("");
+    const calculateStatement = (mathStatement) => {
         try {
-            setAnswerBox(eval (mathExpression));
-            setMathExpression(eval (mathExpression));
+            setSumBox(eval (mathStatement));
+            setMathStatement(eval (mathStatement));
         } catch(err) {
-            setAnswerBox("Err, invalid expression.");
+            setSumBox("error");
         }
     } 
 
-    const addToExpression = (arg) => {
-        setMathExpression(prevExpression => prevExpression + arg);
-        if(answerBox !== "0"){
-            setAnswerBox(prevExpression => prevExpression + arg);
+    const addToStatement = (arg) => {
+        setMathStatement( prevStatement => prevStatement + arg);
+        if(sumBox !== "0"){
+            setSumBox(prevStatement => prevStatement + arg);
         } else {
-            setAnswerBox(arg);
+            setSumBox(arg);
         }
     }
 
-    const clearExpression = () => {
-        setMathExpression("")
-        setAnswerBox("0")
+    const clearStatement = () => {
+        setMathStatement("")
+        setSumBox("0")
     }
 
     return ( 
-        <div className="calculatorbox">
-            <div className="answerBox">
-                <p>{answerBox}</p>
+        <div className="calcBox">
+            <div className="sumBox">
+                <p>{sumBox}</p>
             </div>
             <div className="grid">
-                <button onClick={() => {addToExpression("0")}} className="num0">0</button>
-                <button onClick={() => {addToExpression("1")}} className="num1">1</button>
-                <button onClick={() => {addToExpression("2")}} className="num2">2</button>
-                <button onClick={() => {addToExpression("3")}} className="num3">3</button>
-                <button onClick={() => {addToExpression("4")}} className="num4">4</button>
-                <button onClick={() => {addToExpression("5")}} className="num5">5</button>
-                <button onClick={() => {addToExpression("6")}} className="num6">6</button>
-                <button onClick={() => {addToExpression("7")}} className="num7">7</button>
-                <button onClick={() => {addToExpression("8")}} className="num8">8</button>
-                <button onClick={() => {addToExpression("9")}} className="num9">9</button>
-                <button onClick={() => {addToExpression(" + ")}} className="plus">+</button>
-                <button onClick={() => {addToExpression(" - ")}} className="minus">-</button>
-                <button onClick={() => {addToExpression(" / ")}} className="divide">/</button>
-                <button onClick={() => {addToExpression(" * ")}} className="multiply">*</button>
-                <button onClick={() => {calculateExpression(mathExpression)}} className="equals">=</button>
-                <button onClick={() => {addToExpression(".")}} className="dot">.</button>
-                <button onClick={() => {clearExpression()}} className="clear">CLEAR</button>
+                <button onClick={() => {addToStatement("0")}} className="num0">0</button>
+                <button onClick={() => {addToStatement("1")}} className="num1">1</button>
+                <button onClick={() => {addToStatement("2")}} className="num2">2</button>
+                <button onClick={() => {addToStatement("3")}} className="num3">3</button>
+                <button onClick={() => {addToStatement("4")}} className="num4">4</button>
+                <button onClick={() => {addToStatement("5")}} className="num5">5</button>
+                <button onClick={() => {addToStatement("6")}} className="num6">6</button>
+                <button onClick={() => {addToStatement("7")}} className="num7">7</button>
+                <button onClick={() => {addToStatement("8")}} className="num8">8</button>
+                <button onClick={() => {addToStatement("9")}} className="num9">9</button>
+                <button onClick={() => {addToStatement(" + ")}} className="plus">+</button>
+                <button onClick={() => {addToStatement(" - ")}} className="minus">-</button>
+                <button onClick={() => {addToStatement(" / ")}} className="divide">/</button>
+                <button onClick={() => {addToStatement(" * ")}} className="multiply">*</button>
+                <button onClick={() => {calculateStatement(mathStatement)}} className="equals">=</button>
+                <button onClick={() => {addToStatement(".")}} className="dot">.</button>
+                <button onClick={() => {clearStatement()}} className="clear">CLEAR</button>
             </div>
         </div>
     );

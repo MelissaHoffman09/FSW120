@@ -9,12 +9,12 @@ body {
     color: white;
 }
 
-.answerBox {
+.sumBox {
     padding-left: 25px;
     font-size: 34px;
 }
 
-.calculatorbox {
+.calcBox {
     border: 5px double black;
     background-color: #31343a;
     width: 350px;

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+  height: 115px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #ECECEC;
+}
+#logo {
+  max-height: 115px;
+  display: block;
+  margin: 0 auto;
+}
+#sideBar {
+  margin-top: 120px;
+  width: 20%;
+  float: left;
+  position: fixed;
+}
+#sideBar li {
+  list-style: none;
+  padding: 5px;
+  color: #1DA1F2;
+}
+#profile {
+  width: 115px;
+  border-radius: 50%;
+}
+#username {
+  font-weight: bold;
+}
+#tweetContent {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #1DA1F2;
+}
+#tweetFrame {
+  margin-top: 115px;
+  width: 80%;
+  float: right;
+}
+.tweetLine {
+  padding: 15px;
+  margin: 0px 10px;
+  border-bottom: 2px solid gray;
+}
+.handler {
+  color: #1DA1F2;
+}
+.content {
+  font-style: italic;
+}
+.deleteButton {
+  float: right;
+  margin: 10px;
+}
+#heart {
+  height: 15px;
+}
+#retweet {
+  height: 15px;
+  margin-left: 2%;
+}
+#comment {
+  height: 15px;
+  margin-left: 2%;
+}
+@media only screen and (max-width: 600px) {
+  #sideBar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 110px;
+    width: 100%;
+    position: relative;
+  }
+  #profile {
+    display: block;
+  }
+  #tweetFrame {
+    margin-top: 10px;
+  }
+  #submitButton {
+    display: block;
+    
+  }
+}

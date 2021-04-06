@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "handle": "OscarWilde",
+        "tweetContent": "Be yourself; everyone else is already taken."
+    },
+    {
+        "id": 2,
+        "handle": "Robert-Frost",
+        "tweetContent": "In three words I can sum up everything I've learned about life: it goes on."
+    },
+    {
+        "id": 3,
+        "handle": "Norman_Vincent_Peale",
+        "tweetContent": "Change your thoughts and you change your world."
+    },
+    {
+        "id": 4,
+        "handle": "Nelson_Mandela",
+        "tweetContent": "It always seems impossible until it’s done."
+    },
+    {
+        "id": 5,
+        "handle": "JohnLennon",
+        "tweetContent": "Life is what happens when you're busy making other plans."
+    },
+    {
+        "id": 6,
+        "handle": "Helen-Keller",
+        "tweetContent": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart."
+    },
+    {
+        "id": 7,
+        "handle": "Aristotle",
+        "tweetContent": "It is during our darkest moments that we must focus to see the light."
+    },
+    {
+        "id": 8,
+        "handle": "Abraham_Lincoln",
+        "tweetContent": "In the end, it's not the years in your life that count. It's the life in your years"
+    },
+    {
+        "id": 9,
+        "handle": "Confucius",
+        "tweetContent": "Life is really simple, but we insist on making it complicated."
+    }
+]
